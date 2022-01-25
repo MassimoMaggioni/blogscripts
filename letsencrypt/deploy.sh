@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# is root?
+if [[ $EUID -ne 0 ]]; then
+    echo "Root privilege is required"
+    exit 1
+fi
+
 # user configuration
 INI=./config.ini
 SITE=ftp.a.com
