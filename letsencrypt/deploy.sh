@@ -78,7 +78,7 @@ clean() {
 }
 
 # Debug switch
-DEBUG="--dry-run"
+#DEBUG="--dry-run"
 
 # switch default
 VERBOSE=
