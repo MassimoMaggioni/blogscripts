@@ -1,0 +1,4 @@
+# mode: nocookie, functional, consent
+GDPR:
+  enable: true
+  mode: consent
